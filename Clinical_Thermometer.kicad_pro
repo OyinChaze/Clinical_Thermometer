@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -50,11 +50,82 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "annular_width|173685000|65080000|061e783c-9565-4900-aec7-33d67ef3538d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|173685000|70860000|cbb1256a-b57d-4124-b248-0c2425d4d0af|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|143500000|68050000|b27f2834-9961-4578-872a-1ea3d13e3bd2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|160560000|66820000|4fefcae2-e3d6-4c55-83f3-e1b32293ce45|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|124650000|70600000|afca681a-e945-434d-b647-ef880bd122f2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|134200000|70242500|cb2a6727-d306-4aa9-9e9a-298833643974|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|156186720|68098445|9e8a9ae4-2903-4ec0-8278-f7245d2392f5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|173685000|65080000|061e783c-9565-4900-aec7-33d67ef3538d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|173685000|70860000|cbb1256a-b57d-4124-b248-0c2425d4d0af|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|178882000|63570000|63d7326f-fa7e-47b3-8636-1045f0d0923c|b4caf8c9-3582-4d7e-b1c8-0ccc49f8750e",
+          ""
+        ],
+        [
+          "silk_edge_clearance|178882000|72370000|63d7326f-fa7e-47b3-8636-1045f0d0923c|ab06346b-3c04-4f11-9c31-7f81ae3bc852",
+          ""
+        ],
+        [
+          "silk_over_copper|162410000|63220000|36615fe1-b92a-4ff9-999e-31429b1eff24|db04ef47-11a9-4108-ba59-02579de2b87a",
+          ""
+        ],
+        [
+          "silk_over_copper|162410000|63220000|e559a256-1ed7-41ca-9e3b-e53130dfc20e|db04ef47-11a9-4108-ba59-02579de2b87a",
+          ""
+        ],
+        [
+          "silk_overlap|111892866|61058600|a49f4545-7e36-4991-8b6b-6171b61d4687|c36fe956-3fae-4a15-b23c-0ce6c3b30c62",
+          ""
+        ],
+        [
+          "silk_overlap|111927754|61269000|12c6105d-e3d9-49ea-98b1-da3762cf3a55|a49f4545-7e36-4991-8b6b-6171b61d4687",
+          ""
+        ],
+        [
+          "silk_overlap|111927754|61269000|12c6105d-e3d9-49ea-98b1-da3762cf3a55|c36fe956-3fae-4a15-b23c-0ce6c3b30c62",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -124,23 +195,23 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.15,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
+        "min_hole_clearance": 0.1,
+        "min_hole_to_hole": 0.2,
+        "min_microvia_diameter": 0.15,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.15,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.3,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -187,7 +258,13 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.13,
+        0.2,
+        0.5,
+        0.6
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -214,7 +291,24 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.15
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.15
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -485,17 +579,17 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "esp_temperature.kicad_pro",
+    "filename": "Clinical_Thermometer.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.20302,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -503,11 +597,50 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.127,
+        "diff_pair_width": 0.20302,
+        "name": " Power_H",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.127,
+        "diff_pair_width": 0.20302,
+        "name": "Power_L",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.127,
+        "diff_pair_width": 0.20302,
+        "name": "Signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -515,7 +648,84 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": " Power_H",
+        "pattern": "VBAT"
+      },
+      {
+        "netclass": " Power_H",
+        "pattern": "VBUS_5V"
+      },
+      {
+        "netclass": "Power_L",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": " Power_H",
+        "pattern": "LDO_IN"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "CHIP_EN"
+      },
+      {
+        "netclass": "Power_L",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "I2C_SCL"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "I2C_SDA"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "LED_IN"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(D4-A)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(D4-K)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(D5-K)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(D7-A)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(D7-K)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(SW2-B)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "TEMP_DQ"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "USB_DN"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "USB_DP"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(U3-PROG)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -595,12 +805,120 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -640,18 +958,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "esp_temperature.kicad_sch",
-        "name": "esp_temperature",
+        "filename": "Clinical_Thermometer.kicad_sch",
+        "name": "Clinical_Thermometer",
         "uuid": "ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
       }
     ],
-    "used_designators": "USB1,U2-5,#PWR1-36,D1-7,SW1-2,#FLG1-3,R1-9,J1,C1-13",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "ce469ebf-2011-4a4a-ad04-71bd22c7acfe",
-      "esp_temperature"
+      "Clinical_Thermometer"
     ]
   ],
   "text_variables": {},

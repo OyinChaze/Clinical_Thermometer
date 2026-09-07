@@ -9,3 +9,4 @@ _autosave-*
 *.tmp
 *.bak
 .history/
+Clinical_Thermometer-backups/

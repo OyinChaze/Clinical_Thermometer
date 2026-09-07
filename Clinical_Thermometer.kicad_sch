@@ -563,6 +563,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3356,6 +3479,481 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TTP223-BA6:TTP223-BA6"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 8.128 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TTP223-BA6"
+				(at -7.62 -9.906 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TTP223-BA6:SOT23-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "tontek"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "LIB" "CID"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TTP223-BA6/TONTEK/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "TTP223-BA6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TTP223-BA6/TONTEK/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "TTP223-BA6_0_0"
+				(rectangle
+					(start -7.62 -7.62)
+					(end 7.62 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "I"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "AHLB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "TOG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:TYPEC-304J-BCP16"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4184,7 +4782,7 @@
 		(end 86.36 168.91)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -4192,8 +4790,8 @@
 		(uuid "de55d459-f2b2-4554-91d7-67678a4f07fb")
 	)
 	(rectangle
-		(start 20.32 22.86)
-		(end 147.32 100.33)
+		(start 20.32 15.24)
+		(end 147.32 105.41)
 		(stroke
 			(width 0)
 			(type default)
@@ -4203,11 +4801,68 @@
 		)
 		(uuid "faa092dc-c0d2-457b-b1c7-5e813048dbc0")
 	)
+	(text "TEMPERATURE_SENSOR"
+		(exclude_from_sim no)
+		(at 110.744 188.722 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "45fcead2-0696-4da8-881d-dba416d83c5f")
+	)
+	(text "RGB_LED"
+		(exclude_from_sim no)
+		(at 195.072 158.496 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "71e9a2f9-ad60-4187-b924-c572d6cc3cd1")
+	)
+	(text "ESP32_Microcontroller"
+		(exclude_from_sim no)
+		(at 132.08 102.362 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "9b09b1ca-5bbc-4f56-a22b-b0ed7f93af2f")
+	)
+	(text "POWER_BATTERY_SYSTEM"
+		(exclude_from_sim no)
+		(at 175.26 121.412 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "c3969c67-ace8-4c3c-97c2-609e5d4e7a5b")
+	)
+	(text "OLED_SCREEN"
+		(exclude_from_sim no)
+		(at 31.75 166.624 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "dd04bebd-d508-459b-9712-e33055bcc104")
+	)
 	(junction
 		(at 199.39 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00f99b57-43c8-41b4-968a-264eaeaf88c2")
+	)
+	(junction
+		(at 224.79 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0417ac97-2c0f-4f08-a6ac-7230dd8452b4")
 	)
 	(junction
 		(at 38.1 134.62)
@@ -4234,22 +4889,40 @@
 		(uuid "1369296c-b809-4a24-8ec7-ed7c73e8716f")
 	)
 	(junction
+		(at 152.4 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1451cb68-f429-4a8a-b4d8-88e8611ef3f4")
+	)
+	(junction
+		(at 190.5 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1501a516-1fce-4c36-871f-0ff544748ce6")
+	)
+	(junction
 		(at 60.96 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18428a16-76f3-4b50-8d3a-f4fd05bb47e0")
 	)
 	(junction
-		(at 128.27 154.94)
+		(at 92.71 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1ad08a28-9f1a-484f-84c4-a2a9b458abb4")
+		(uuid "1e6c202e-189c-4036-8d9e-12520b6740a4")
 	)
 	(junction
 		(at 71.12 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "279dfbc2-e8d2-4fd6-b926-0749708792ac")
+	)
+	(junction
+		(at 44.45 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28c9a430-665b-4026-8839-aadd0e9c2474")
 	)
 	(junction
 		(at 66.04 96.52)
@@ -4264,12 +4937,6 @@
 		(uuid "37a9bc7d-1eb9-4066-8517-fc87b6b95102")
 	)
 	(junction
-		(at 190.5 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "396d7614-cba1-4741-b0f7-45148447ddce")
-	)
-	(junction
 		(at 190.5 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4280,12 +4947,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ebab37f-03f6-4528-ae2a-a425a5a8b677")
-	)
-	(junction
-		(at 139.7 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43332f36-652d-4403-a7e0-ce94eb76df53")
 	)
 	(junction
 		(at 78.74 27.94)
@@ -4300,16 +4961,16 @@
 		(uuid "471670ff-2a7f-43d9-a5c7-f297770310cf")
 	)
 	(junction
+		(at 66.04 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d524629-2d35-4e1a-b98a-c57e0e62156b")
+	)
+	(junction
 		(at 66.04 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57b85133-820e-4cdc-8a91-4db3cd6da285")
-	)
-	(junction
-		(at 187.96 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58ccfae3-ebfb-465a-84d0-4041cd2bcdf8")
 	)
 	(junction
 		(at 58.42 27.94)
@@ -4330,10 +4991,10 @@
 		(uuid "6181e146-16b0-46fe-9f89-d0a12902187b")
 	)
 	(junction
-		(at 203.2 102.87)
+		(at 43.18 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6343f6d2-dc58-4de7-987d-7f6fc7d4fd8f")
+		(uuid "6280f2e5-fff5-4748-a6a0-cc835aed0c46")
 	)
 	(junction
 		(at 101.6 27.94)
@@ -4360,10 +5021,10 @@
 		(uuid "693936ea-d3f9-4a03-b69c-97fbedac4573")
 	)
 	(junction
-		(at 53.34 90.17)
+		(at 203.2 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7f51daf6-169b-4057-9d7f-d2a9c27308df")
+		(uuid "6b664c74-57e6-45b9-9a15-1c47d476aac9")
 	)
 	(junction
 		(at 99.06 27.94)
@@ -4408,22 +5069,34 @@
 		(uuid "a420f69a-50ca-4086-af43-7eaf3f9ef141")
 	)
 	(junction
-		(at 231.14 137.16)
+		(at 231.14 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a424726f-6a11-4710-bb8f-c7c010e37d12")
+	)
+	(junction
+		(at 114.3 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5278514-cf61-4dbe-8e34-8db5d61e825e")
+	)
+	(junction
+		(at 107.95 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a69774d0-e185-4a16-a5ed-9dd2fdca81e8")
+	)
+	(junction
+		(at 187.96 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9667d27-28dc-44b7-8039-7bc1814b038d")
 	)
 	(junction
 		(at 50.8 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa1f3b78-7a39-451c-b85d-f474729c9567")
-	)
-	(junction
-		(at 224.79 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab2526f6-7cb4-4619-b0d0-2f688adfc76b")
 	)
 	(junction
 		(at 190.5 30.48)
@@ -4468,7 +5141,7 @@
 		(uuid "c18d95e7-448e-46e2-a177-0868ae724541")
 	)
 	(junction
-		(at 128.27 152.4)
+		(at 140.97 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc678b18-f5bd-4712-884f-cc6defd61a65")
@@ -4486,7 +5159,7 @@
 		(uuid "e0bbc238-c1c8-4fa2-ba54-d9819fe0d593")
 	)
 	(junction
-		(at 53.34 86.36)
+		(at 53.34 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5d74769-a5c0-41fa-9c4b-da936887bb8d")
@@ -4496,6 +5169,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec8b1a9b-ad06-4eb6-8b0e-19bdba1ee3d6")
+	)
+	(junction
+		(at 53.34 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec923706-ce45-444c-be5c-9eeb7eddd470")
 	)
 	(junction
 		(at 109.22 27.94)
@@ -4510,26 +5189,46 @@
 		(uuid "eef5a2a1-a52a-4258-bc4f-c66c909371e3")
 	)
 	(junction
+		(at 36.83 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef50d2a5-357d-468c-b18f-fdec3f6e3130")
+	)
+	(junction
+		(at 111.76 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f46d67d6-ecdd-488b-bf1d-3fa1f03c9067")
+	)
+	(junction
+		(at 140.97 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4f82242-dee6-4f72-8a21-0014e0911159")
+	)
+	(junction
+		(at 92.71 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5ab96fd-fff1-4ea0-a8ad-a6409f9797bf")
+	)
+	(junction
 		(at 93.98 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6a26166-05d5-4750-b8ef-e6678f353152")
 	)
 	(no_connect
-		(at 104.14 74.93)
-		(uuid "0a52ffec-f685-41e9-933e-e801f6c7bf2d")
-	)
-	(no_connect
 		(at 243.84 53.34)
 		(uuid "477d7627-4fa0-4c37-95b8-75d0c468f69f")
 	)
 	(no_connect
-		(at 91.44 74.93)
-		(uuid "4fc9fd0c-9d69-4f92-a7df-95e5f8b7c14a")
-	)
-	(no_connect
 		(at 124.46 34.29)
 		(uuid "71e60d3a-ac5e-401f-ae2e-65d9c3d2124e")
+	)
+	(no_connect
+		(at 24.13 101.6)
+		(uuid "772f1b86-3327-4596-9e41-f6aa6a7066cb")
 	)
 	(no_connect
 		(at 86.36 74.93)
@@ -4544,12 +5243,16 @@
 		(uuid "9cc84fc0-4c9f-458c-883f-1bc7bda8461f")
 	)
 	(no_connect
-		(at 238.76 146.05)
+		(at 238.76 149.86)
 		(uuid "9ecf9b66-f918-4757-bb24-8fd3bc2a7974")
 	)
 	(no_connect
 		(at 121.92 74.93)
 		(uuid "a0a76074-8d6f-4d99-89f7-bd5d87bac81f")
+	)
+	(no_connect
+		(at 102.87 93.98)
+		(uuid "ae83ac6e-588c-4973-ae79-af02ffb99846")
 	)
 	(no_connect
 		(at 243.84 60.96)
@@ -4603,7 +5306,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 151.13) (xy 128.27 152.4)
+			(xy 140.97 166.37) (xy 140.97 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4703,6 +5406,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 99.06) (xy 44.45 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178c403f-0637-4c85-9b94-2da6a9ed7bc5")
+	)
+	(wire
+		(pts
 			(xy 236.22 35.56) (xy 243.84 35.56)
 		)
 		(stroke
@@ -4793,7 +5506,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 162.56) (xy 139.7 162.56)
+			(xy 157.48 177.8) (xy 152.4 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4863,7 +5576,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 175.26) (xy 121.92 154.94)
+			(xy 34.29 99.06) (xy 36.83 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4534add3-f20a-4af7-a1d3-38c93ef24b91")
+	)
+	(wire
+		(pts
+			(xy 134.62 190.5) (xy 134.62 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4873,7 +5596,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 134.62) (xy 231.14 137.16)
+			(xy 231.14 138.43) (xy 231.14 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4883,7 +5606,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 74.93) (xy 53.34 86.36)
+			(xy 53.34 74.93) (xy 53.34 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4943,6 +5666,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 149.86) (xy 114.3 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f663ed-89a4-40eb-a3b6-1a99918c8b06")
+	)
+	(wire
+		(pts
 			(xy 81.28 27.94) (xy 81.28 34.29)
 		)
 		(stroke
@@ -4963,6 +5696,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 99.06) (xy 78.74 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59b8ff28-370e-4e9d-ae03-6e90282314ce")
+	)
+	(wire
+		(pts
 			(xy 114.3 74.93) (xy 114.3 83.82)
 		)
 		(stroke
@@ -4980,6 +5723,16 @@
 			(type default)
 		)
 		(uuid "5bf5af78-b461-4d60-9efa-c4b776486ef1")
+	)
+	(wire
+		(pts
+			(xy 66.04 85.09) (xy 66.04 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c9c8042-f729-404f-a5f0-036524d716d8")
 	)
 	(wire
 		(pts
@@ -5033,7 +5786,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 74.93) (xy 66.04 92.71)
+			(xy 78.74 85.09) (xy 66.04 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696191cc-37c3-4012-b7b0-c60399cb654b")
+	)
+	(wire
+		(pts
+			(xy 66.04 74.93) (xy 66.04 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5103,7 +5866,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 154.94) (xy 128.27 154.94)
+			(xy 134.62 170.18) (xy 140.97 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5163,6 +5926,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 86.36) (xy 92.71 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d31928e-ad34-4ef5-8bb6-0d018f0d4e17")
+	)
+	(wire
+		(pts
 			(xy 187.96 64.77) (xy 187.96 67.31)
 		)
 		(stroke
@@ -5173,7 +5946,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 162.56) (xy 135.89 162.56)
+			(xy 152.4 177.8) (xy 148.59 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5203,6 +5976,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 96.52) (xy 92.71 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8342b73b-f525-4560-a207-ffd56695be4a")
+	)
+	(wire
+		(pts
 			(xy 91.44 27.94) (xy 88.9 27.94)
 		)
 		(stroke
@@ -5210,6 +5993,16 @@
 			(type default)
 		)
 		(uuid "83dff0ae-4c83-4f91-b48a-1c739fff3859")
+	)
+	(wire
+		(pts
+			(xy 111.76 154.94) (xy 119.38 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ff71f0-962c-4533-8fb4-d4d7be0ad1a3")
 	)
 	(wire
 		(pts
@@ -5230,6 +6023,16 @@
 			(type default)
 		)
 		(uuid "8d6d2c57-cdd5-4ad4-a87d-be659e17a45b")
+	)
+	(wire
+		(pts
+			(xy 104.14 80.01) (xy 104.14 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8db5c9c9-91c0-4e26-805a-0b5b2565a756")
 	)
 	(wire
 		(pts
@@ -5323,6 +6126,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 92.71) (xy 92.71 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a7a8c4-a2a5-474d-a5bc-3ea429576b39")
+	)
+	(wire
+		(pts
 			(xy 109.22 27.94) (xy 106.68 27.94)
 		)
 		(stroke
@@ -5353,7 +6166,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 86.36) (xy 53.34 90.17)
+			(xy 53.34 82.55) (xy 53.34 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5393,6 +6206,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 149.86) (xy 119.38 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b04e3325-d5ac-47a0-b4d0-f7f1b65d6929")
+	)
+	(wire
+		(pts
 			(xy 96.52 27.94) (xy 96.52 34.29)
 		)
 		(stroke
@@ -5413,7 +6236,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 170.18) (xy 139.7 175.26)
+			(xy 152.4 185.42) (xy 152.4 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5443,6 +6266,26 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 154.94) (xy 111.76 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf2c17ea-8c8c-428c-9454-8e51708f14ef")
+	)
+	(wire
+		(pts
+			(xy 92.71 80.01) (xy 104.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf342ed3-ea51-47a1-931a-b37d5c72277a")
+	)
+	(wire
+		(pts
 			(xy 203.2 59.69) (xy 203.2 62.23)
 		)
 		(stroke
@@ -5450,6 +6293,16 @@
 			(type default)
 		)
 		(uuid "c11d39e7-02c6-4da1-aff1-cdcf82992d93")
+	)
+	(wire
+		(pts
+			(xy 36.83 99.06) (xy 43.18 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ec22aa-0b05-4c02-8577-e7c9410d9414")
 	)
 	(wire
 		(pts
@@ -5503,6 +6356,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 99.06) (xy 78.74 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd110a21-3d35-426e-93ca-e887ef7f1021")
+	)
+	(wire
+		(pts
 			(xy 232.41 50.8) (xy 234.95 50.8)
 		)
 		(stroke
@@ -5520,6 +6383,16 @@
 			(type default)
 		)
 		(uuid "ce9b4c4d-2c8a-4f17-bec3-96289a738e75")
+	)
+	(wire
+		(pts
+			(xy 44.45 99.06) (xy 44.45 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfbe99da-a1e3-4e11-84f9-ed99ccbe270c")
 	)
 	(wire
 		(pts
@@ -5573,6 +6446,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 149.86) (xy 107.95 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0889b3-09db-48ea-8139-c709ae8c4067")
+	)
+	(wire
+		(pts
 			(xy 63.5 27.94) (xy 63.5 34.29)
 		)
 		(stroke
@@ -5600,6 +6483,16 @@
 			(type default)
 		)
 		(uuid "e1251593-844a-4d8f-9b93-520692003a88")
+	)
+	(wire
+		(pts
+			(xy 224.79 104.14) (xy 224.79 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e12ad5ab-7c2a-4d62-aa8a-3b8329d47aa1")
 	)
 	(wire
 		(pts
@@ -5653,7 +6546,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 137.16) (xy 231.14 138.43)
+			(xy 231.14 140.97) (xy 231.14 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5703,7 +6596,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 152.4) (xy 128.27 154.94)
+			(xy 140.97 167.64) (xy 140.97 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5733,7 +6626,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 175.26) (xy 121.92 175.26)
+			(xy 152.4 190.5) (xy 134.62 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5773,7 +6666,7 @@
 	)
 	(global_label "LED_DIN"
 		(shape input)
-		(at 223.52 146.05 180)
+		(at 223.52 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5783,7 +6676,7 @@
 		)
 		(uuid "00442b44-e78a-46b8-a82d-635d3cbdf6de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.1565 146.05 0)
+			(at 217.1565 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5840,6 +6733,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "TOUCH_IN"
+		(shape input)
+		(at 139.7 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "12d9210a-e3cb-4834-b72a-d95eddc31ac9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.9707 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5912,6 +6829,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "LDO_IN"
+		(shape input)
+		(at 231.14 138.43 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "65c10b20-2ab8-4a93-acc5-7aeafe6ba346")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.14 132.7196 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -6037,7 +6978,7 @@
 	)
 	(global_label "TEMP_DQ"
 		(shape input)
-		(at 144.78 162.56 0)
+		(at 157.48 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6047,7 +6988,7 @@
 		)
 		(uuid "94b03c2a-4576-41a2-aa43-e46aaaa66f57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.6152 162.56 0)
+			(at 164.3152 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6395,6 +7336,30 @@
 			)
 		)
 	)
+	(global_label "TOUCH_IN"
+		(shape input)
+		(at 91.44 74.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "fe8083ca-29f5-460c-9806-34433b210b16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.44 82.2007 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VBUS_5V"
 		(shape input)
 		(at 167.64 63.5 270)
@@ -6488,7 +7453,7 @@
 			(uuid "8ed16bc7-b0e7-4859-a374-43a382389181")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR04")
 					(unit 1)
@@ -6518,7 +7483,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "1k"
 			(at 233.172 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6529,7 +7494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 231.648 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -6562,6 +7527,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C106235"
+			(at 229.87 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8a960125-37d6-41d9-bb1f-d56b510667d0")
 		)
@@ -6569,7 +7545,7 @@
 			(uuid "e7f0844f-76f4-45db-b125-9764e8adf993")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "R6")
 					(unit 1)
@@ -6579,7 +7555,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 128.27 151.13 0)
+		(at 140.97 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6589,7 +7565,7 @@
 		(dnp no)
 		(uuid "08aa1d42-e1fc-47b0-8abb-542b9e406072")
 		(property "Reference" "#PWR031"
-			(at 128.27 154.94 0)
+			(at 140.97 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6600,7 +7576,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 128.524 147.828 0)
+			(at 141.224 163.068 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6610,7 +7586,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 151.13 0)
+			(at 140.97 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6621,7 +7597,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 151.13 0)
+			(at 140.97 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6632,7 +7608,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 128.27 151.13 0)
+			(at 140.97 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6646,7 +7622,7 @@
 			(uuid "084cfbd2-b275-4a3c-af56-fa4e00bba2ca")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR031")
 					(unit 1)
@@ -6656,7 +7632,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Temperature:DS18B20")
-		(at 128.27 162.56 0)
+		(at 140.97 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6666,7 +7642,7 @@
 		(dnp no)
 		(uuid "0935f08c-184e-47eb-80d8-8c0e418a381d")
 		(property "Reference" "U5"
-			(at 133.096 168.656 0)
+			(at 145.796 183.896 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6677,7 +7653,7 @@
 			)
 		)
 		(property "Value" "DS18B20"
-			(at 137.16 170.434 0)
+			(at 149.86 185.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6688,7 +7664,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 102.87 168.91 0)
+			(at 115.57 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6699,7 +7675,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
-			(at 124.46 156.21 0)
+			(at 137.16 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6710,7 +7686,18 @@
 			)
 		)
 		(property "Description" "Programmable Resolution 1-Wire Digital Thermometer TO-92"
-			(at 128.27 162.56 0)
+			(at 140.97 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 140.97 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6730,7 +7717,7 @@
 			(uuid "9edd2cf3-cace-4eb1-91ed-7fcbfc4577d2")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "U5")
 					(unit 1)
@@ -6739,8 +7726,209 @@
 		)
 	)
 	(symbol
+		(lib_id "TTP223-BA6:TTP223-BA6")
+		(at 129.54 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d7d8ecc-3d7c-4b99-940f-077873005bb4")
+		(property "Reference" "U6"
+			(at 129.54 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TTP223-BA6"
+			(at 129.54 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "tontek"
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "LIB" "CID"
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TTP223-BA6/TONTEK/view-part/?ref=snap"
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TTP223-BA6"
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TTP223-BA6/TONTEK/view-part/?ref=eda"
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "LCSC Part" "C42422127"
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "dc2fe1ba-e0b2-4236-a447-609230c44039")
+		)
+		(pin "1"
+			(uuid "671b65a5-721e-47a4-a31c-435fd747070f")
+		)
+		(pin "6"
+			(uuid "cae6752a-628c-44fd-9a4f-4edfb2377895")
+		)
+		(pin "4"
+			(uuid "313d2c10-89f5-4233-979d-608082c6aab4")
+		)
+		(pin "2"
+			(uuid "5792cc00-0ed3-49e0-8eee-e9ed33232034")
+		)
+		(pin "3"
+			(uuid "ebd0179d-c8ea-42b3-a40a-a439ac149aad")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 45.72 86.36 270)
+		(at 45.72 82.55 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6750,7 +7938,7 @@
 		(dnp no)
 		(uuid "10ee2ade-f00d-4f28-b319-cfbf76edc5c2")
 		(property "Reference" "#PWR013"
-			(at 39.37 86.36 0)
+			(at 39.37 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6761,7 +7949,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 42.672 86.36 0)
+			(at 42.672 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6771,7 +7959,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 86.36 0)
+			(at 45.72 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6782,7 +7970,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 86.36 0)
+			(at 45.72 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6793,7 +7981,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 86.36 0)
+			(at 45.72 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6807,7 +7995,7 @@
 			(uuid "0c6f2186-3c48-4343-bf8e-0056587ef9db")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR013")
 					(unit 1)
@@ -6817,7 +8005,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 227.33 137.16 90)
+		(at 111.76 158.75 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6825,9 +8013,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "22089022-2ec4-411e-830f-aa9758bcf987")
-		(property "Reference" "C13"
-			(at 225.552 136.906 0)
+		(uuid "213b68ec-f80e-4fad-8365-8e752c71deda")
+		(property "Reference" "C16"
+			(at 111.506 160.528 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6837,8 +8025,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
-			(at 229.108 136.652 0)
+		(property "Value" "22pf"
+			(at 111.252 156.972 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6848,8 +8036,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 231.14 136.1948 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 110.7948 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6860,7 +8048,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 137.16 0)
+			(at 111.76 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6871,7 +8059,110 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 227.33 137.16 0)
+			(at 111.76 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2168192"
+			(at 111.76 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "520db57a-964a-4580-b284-eed55113728c")
+		)
+		(pin "2"
+			(uuid "1a08992b-51bb-40a8-8553-050f64a16407")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 227.33 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "22089022-2ec4-411e-830f-aa9758bcf987")
+		(property "Reference" "C13"
+			(at 225.552 140.716 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uf"
+			(at 229.108 140.462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 231.14 140.0048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 227.33 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C131394"
+			(at 227.33 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6888,7 +8179,7 @@
 			(uuid "083f8eb1-8035-43d6-89d5-ad8f6735d7b9")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "C13")
 					(unit 1)
@@ -6927,7 +8218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 175.26 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6971,6 +8262,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C74338"
+			(at 175.26 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c015710a-9948-422e-bc8a-184ab4869ae9")
 		)
@@ -6978,7 +8280,7 @@
 			(uuid "03fdc973-d309-4247-bb2c-c0a069a87513")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "D7")
 					(unit 1)
@@ -7055,7 +8357,7 @@
 			(uuid "7c235c07-1719-4fb0-8698-7d6120f2490f")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR017")
 					(unit 1)
@@ -7132,7 +8434,7 @@
 			(uuid "cf98a27e-b805-4d3a-96ad-bbb57d373ece")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR023")
 					(unit 1)
@@ -7210,7 +8512,7 @@
 			(uuid "31e2f558-9f4f-4839-b611-75605bbc454d")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR02")
 					(unit 1)
@@ -7287,7 +8589,7 @@
 			(uuid "63ed0cb3-a9cc-4967-b4c7-936ab67fb8f9")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR029")
 					(unit 1)
@@ -7364,7 +8666,7 @@
 			(uuid "3d6181e3-5d0f-42a5-88ce-0782755da7f1")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR012")
 					(unit 1)
@@ -7403,7 +8705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 185.42 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7458,6 +8760,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C145305"
+			(at 185.42 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6112975e-4059-4332-bbc6-c33464d11ca5")
 		)
@@ -7465,7 +8778,7 @@
 			(uuid "ea0dcec5-8b0c-4e11-b8e6-274eb1e1f291")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "D2")
 					(unit 1)
@@ -7485,7 +8798,7 @@
 		(dnp no)
 		(uuid "3226a622-fbe3-4e5f-b49d-4b664c66e970")
 		(property "Reference" "U1"
-			(at 41.91 53.3399 90)
+			(at 58.674 53.594 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7496,8 +8809,8 @@
 			)
 		)
 		(property "Value" "ESP32-C3-MINI-1-N4"
-			(at 75.184 55.118 90)
-			(show_name no)
+			(at 84.582 55.626 90)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -7506,7 +8819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESP32-C3-MINI-1_EXP"
+		(property "Footprint" "ESP32C3MINII:ESP32-C3-MINI-1_EXP"
 			(at 4.572 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7532,6 +8845,17 @@
 		)
 		(property "Description" ""
 			(at 48.26 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2838502"
+			(at 48.26 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7725,7 +9049,7 @@
 			(uuid "003d65b4-7b80-4d60-a122-6bccfe88516a")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "U1")
 					(unit 1)
@@ -7802,9 +9126,87 @@
 			(uuid "98632620-f1d2-4ecc-9722-61d0712becb9")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 104.14 154.94 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3306607e-3da5-49cd-9dc0-fa37a806327e")
+		(property "Reference" "TP1"
+			(at 99.06 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 97.282 160.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 104.14 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 104.14 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff472e6e-bec6-47aa-9ae7-ccc8d68b2a2e")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -7879,7 +9281,7 @@
 			(uuid "bb99c601-26c4-4fb3-a56f-d3538697c0da")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR06")
 					(unit 1)
@@ -7920,7 +9322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 62.23 98.298 90)
 			(hide yes)
 			(show_name no)
@@ -7953,6 +9355,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C60490"
+			(at 62.23 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "98534ecf-aa4a-4d1d-8ceb-7e706dda0a2d")
 		)
@@ -7960,9 +9373,240 @@
 			(uuid "e3d793b4-97e7-40ef-81f2-b116a3b38635")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 154.94 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3786e110-5d09-4872-9411-170e02e75943")
+		(property "Reference" "#PWR045"
+			(at 146.05 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.002 153.416 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1dd74da2-58a8-4c01-9bc7-d681695f6a0b")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "399ab142-ee90-4608-a4d0-4513fe3709a5")
+		(property "Reference" "#PWR044"
+			(at 146.05 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.256 158.242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "939c02ab-e424-4f94-9ac9-8c0c18537da0")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 160.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3bd7f9b5-3976-4e14-a133-65af39364650")
+		(property "Reference" "#PWR034"
+			(at 113.03 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.316 160.274 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b78137d0-989b-47f8-b6c7-d378c0993c7d")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8001,7 +9645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 198.4248 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8034,6 +9678,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C3854737"
+			(at 199.39 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cb0a3b01-62ec-4934-8ffd-c9315826ad30")
 		)
@@ -8041,7 +9696,7 @@
 			(uuid "c1174aff-2752-4ca7-8546-0eb069bd6cec")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "C8")
 					(unit 1)
@@ -8082,7 +9737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 59.69 122.2248 0)
 			(hide yes)
 			(show_name no)
@@ -8115,6 +9770,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C131394"
+			(at 55.88 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bdf27441-2156-4d8b-8bda-0c2356427775")
 		)
@@ -8122,7 +9788,7 @@
 			(uuid "06dbcdcf-b5f5-433a-a8bd-2116876a574d")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "C11")
 					(unit 1)
@@ -8163,7 +9829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 190.5 29.5148 0)
 			(hide yes)
 			(show_name no)
@@ -8196,6 +9862,28 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C315248"
+			(at 186.69 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 186.69 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fd6093ee-987b-403d-bd75-ed48e2cb101e")
 		)
@@ -8203,7 +9891,7 @@
 			(uuid "243881be-fdbd-4a5e-914a-0781155af26a")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "C10")
 					(unit 1)
@@ -8280,7 +9968,7 @@
 			(uuid "f75793ff-b568-4ffa-8ed2-7f9a9a2412ab")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR016")
 					(unit 1)
@@ -8290,7 +9978,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 231.14 146.05 0)
+		(at 231.14 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8301,7 +9989,7 @@
 		(fields_autoplaced yes)
 		(uuid "502aa2e2-d7cd-49f8-9661-ea4b84bdd524")
 		(property "Reference" "D1"
-			(at 242.57 139.6298 0)
+			(at 242.57 143.4398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8310,8 +9998,8 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 242.57 142.1698 0)
+		(property "Value" "WS2812B-V6"
+			(at 242.57 145.9798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8321,7 +10009,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 232.41 153.67 0)
+			(at 232.41 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8333,7 +10021,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 233.68 155.575 0)
+			(at 233.68 159.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8345,7 +10033,18 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 231.14 146.05 0)
+			(at 231.14 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C52917433"
+			(at 231.14 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8368,7 +10067,7 @@
 			(uuid "cb25c146-99c4-452c-96a6-7a8b696fe7bf")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "D1")
 					(unit 1)
@@ -8446,9 +10145,86 @@
 			(uuid "702e562c-49a2-45f9-b4f5-39f67b5fb046")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 101.6 149.86 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5509caf3-10ad-4a95-8a53-d8c29778da3b")
+		(property "Reference" "#PWR046"
+			(at 105.41 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 101.092 150.876 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 101.6 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4bb1f6c3-ad3c-4fd6-90ee-d940dc1d961f")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -8523,7 +10299,7 @@
 			(uuid "84e235ea-4695-40ad-8840-c5fa4261da7a")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#FLG01")
 					(unit 1)
@@ -8564,7 +10340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 204.978 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -8597,6 +10373,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C138008"
+			(at 203.2 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "61cdb81b-af06-4057-bbc5-c76923476966")
 		)
@@ -8604,7 +10391,7 @@
 			(uuid "2678ec16-79d6-4681-8721-a2577375f5fb")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "R3")
 					(unit 1)
@@ -8614,7 +10401,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 49.53 86.36 90)
+		(at 49.53 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8624,7 +10411,7 @@
 		(dnp no)
 		(uuid "68dedc1b-e208-48e0-8eb5-cd23632f263f")
 		(property "Reference" "C3"
-			(at 47.752 86.106 0)
+			(at 47.752 82.296 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8635,7 +10422,7 @@
 			)
 		)
 		(property "Value" "0.1uf"
-			(at 51.308 85.852 0)
+			(at 51.308 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8645,8 +10432,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 53.34 85.3948 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 53.34 81.5848 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8657,7 +10444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 86.36 0)
+			(at 49.53 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8668,7 +10455,18 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 49.53 86.36 0)
+			(at 49.53 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C131394"
+			(at 49.53 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8685,7 +10483,7 @@
 			(uuid "8bfc5b1f-aa6d-498f-bdc4-e4adef0ff32c")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "C3")
 					(unit 1)
@@ -8695,7 +10493,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 110.49 0)
+		(at 224.79 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8705,7 +10503,7 @@
 		(dnp no)
 		(uuid "696de4f1-55eb-4ecf-a1c4-9ec234455c1c")
 		(property "Reference" "#PWR024"
-			(at 224.79 116.84 0)
+			(at 224.79 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8716,7 +10514,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 113.538 0)
+			(at 224.79 114.808 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8726,7 +10524,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 110.49 0)
+			(at 224.79 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8737,7 +10535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 110.49 0)
+			(at 224.79 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8748,7 +10546,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 110.49 0)
+			(at 224.79 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8762,7 +10560,7 @@
 			(uuid "5c485f37-5d36-474f-b4e6-841cb1af3d3c")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR024")
 					(unit 1)
@@ -8772,7 +10570,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 170.18 0)
+		(at 140.97 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8782,7 +10580,7 @@
 		(dnp no)
 		(uuid "6ba2cb15-5975-4a8f-a672-88bb19215b23")
 		(property "Reference" "#PWR033"
-			(at 128.27 176.53 0)
+			(at 140.97 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8793,7 +10591,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.016 173.482 0)
+			(at 140.716 188.722 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8803,7 +10601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 170.18 0)
+			(at 140.97 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8814,7 +10612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 170.18 0)
+			(at 140.97 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8825,7 +10623,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 170.18 0)
+			(at 140.97 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8839,7 +10637,7 @@
 			(uuid "082e2874-c78f-4a02-a009-455c540b0bc8")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR033")
 					(unit 1)
@@ -8849,7 +10647,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 132.08 152.4 90)
+		(at 144.78 167.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8859,7 +10657,7 @@
 		(dnp no)
 		(uuid "75aa44b9-7179-4d91-a35e-9679d103ee15")
 		(property "Reference" "C12"
-			(at 130.302 152.146 0)
+			(at 143.002 167.386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8870,7 +10668,7 @@
 			)
 		)
 		(property "Value" "0.1uf"
-			(at 133.858 151.892 0)
+			(at 146.558 167.132 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8880,8 +10678,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 135.89 151.4348 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 148.59 166.6748 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8892,7 +10690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 152.4 0)
+			(at 144.78 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8903,7 +10701,18 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 132.08 152.4 0)
+			(at 144.78 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C131394"
+			(at 144.78 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8920,7 +10729,7 @@
 			(uuid "37261c0a-e314-45d0-8dda-b926604cdae7")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "C12")
 					(unit 1)
@@ -8930,7 +10739,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 153.67 0)
+		(at 102.87 99.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8938,9 +10747,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "78b90c95-36a0-4fee-9d30-bc42fa6e6769")
-		(property "Reference" "#PWR036"
-			(at 231.14 160.02 0)
+		(uuid "77db5f14-3211-4e2f-8004-4760e0963594")
+		(property "Reference" "#PWR038"
+			(at 109.22 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8951,17 +10760,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 156.718 0)
+			(at 106.934 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 153.67 0)
+			(at 102.87 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8972,7 +10781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 153.67 0)
+			(at 102.87 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8983,7 +10792,161 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 153.67 0)
+			(at 102.87 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b943a7a6-a4c2-486a-891f-4f27473c30e3")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 142.24 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "787f4fec-28b7-455f-ad7b-2b183c636b84")
+		(property "Reference" "#PWR048"
+			(at 114.3 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.046 138.176 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c705947-394a-4357-b8e5-e9874fa1aa6b")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "78b90c95-36a0-4fee-9d30-bc42fa6e6769")
+		(property "Reference" "#PWR036"
+			(at 231.14 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 160.528 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8997,7 +10960,7 @@
 			(uuid "a6643617-3670-456f-92ff-a202b2e58fe9")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR036")
 					(unit 1)
@@ -9074,7 +11037,7 @@
 			(uuid "5e14bd01-8bd6-4692-9e7c-186b31ef9a1a")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR05")
 					(unit 1)
@@ -9151,7 +11114,7 @@
 			(uuid "6ac864c3-023e-4bde-a719-650c88b213d0")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR015")
 					(unit 1)
@@ -9228,7 +11191,7 @@
 			(uuid "3717d3d5-133e-4d35-b6f6-a7f6cfc61cfd")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR027")
 					(unit 1)
@@ -9267,7 +11230,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 175.26 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9311,6 +11274,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C74338"
+			(at 175.26 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "998175cb-2501-4a3b-83c5-992a997efcbe")
 		)
@@ -9318,7 +11292,7 @@
 			(uuid "e0544085-274d-47ae-913c-c3ff924af668")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "D4")
 					(unit 1)
@@ -9395,7 +11369,7 @@
 			(uuid "9ebe0149-b6c1-4e2c-8373-dafedeeb16d5")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR03")
 					(unit 1)
@@ -9404,8 +11378,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 224.79 106.68 180)
+		(lib_id "power:+3.3V")
+		(at 85.09 86.36 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9413,31 +11387,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8412f4f8-fbb6-47c2-b0c1-eba80a5c959c")
-		(property "Reference" "C9"
-			(at 224.536 108.458 0)
+		(uuid "7f51252a-9dba-4a22-acc5-84c6162b29e1")
+		(property "Reference" "#PWR037"
+			(at 88.9 86.36 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "22uf"
-			(at 224.282 104.902 0)
+		(property "Value" "+3.3V"
+			(at 84.582 87.376 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 223.8248 102.87 0)
+			(at 85.09 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9448,7 +11421,162 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 106.68 0)
+			(at 85.09 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 85.09 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e24cad5-779d-4b55-a7bf-12806cd21985")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "82aa77d2-c22d-42dd-9379-e46481bcb4f5")
+		(property "Reference" "#PWR043"
+			(at 111.76 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 112.014 166.624 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1dc82db-606a-49bf-8c6b-d43a181107d8")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 224.79 107.95 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8412f4f8-fbb6-47c2-b0c1-eba80a5c959c")
+		(property "Reference" "C9"
+			(at 224.536 109.728 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uf"
+			(at 224.282 106.172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 223.8248 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9459,7 +11587,18 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 224.79 106.68 0)
+			(at 224.79 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C3854737"
+			(at 224.79 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9476,9 +11615,101 @@
 			(uuid "04c873be-7c2b-4719-b4c7-00bc8f351dec")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 36.83 95.25 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8945ab39-80d0-42a0-a582-b7ce71cf4c05")
+		(property "Reference" "C15"
+			(at 36.576 97.028 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uf"
+			(at 36.322 93.472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 35.8648 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 36.83 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C29266"
+			(at 36.83 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bda8a09-c2ff-4fca-bd61-d8962d99d8f9")
+		)
+		(pin "2"
+			(uuid "d17e43c3-19be-4d4c-9e36-9ee9ae3f9a0d")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -9554,9 +11785,86 @@
 			(uuid "0d6a1506-401d-4f3a-8c55-7d3dc47f6c0a")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 52.07 104.14 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b43e2d3-3320-4c01-b6e5-a22a722b8a61")
+		(property "Reference" "#PWR041"
+			(at 48.26 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 55.118 103.124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 52.07 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f60c4fa9-aa87-43c3-b9a2-3f6e035c3179")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -9595,7 +11903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 235.9152 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9628,6 +11936,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C131394"
+			(at 234.95 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0323967c-fa92-4ec0-a918-3d2fdb750172")
 		)
@@ -9635,7 +11954,7 @@
 			(uuid "fdb238bb-4e51-4f44-aae9-157700c21912")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "C6")
 					(unit 1)
@@ -9709,6 +12028,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5248081"
+			(at 52.07 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bf8d28d4-553c-4649-991b-02968bb84505")
 		)
@@ -9722,7 +12052,7 @@
 			(uuid "35c0e648-3886-400b-aec2-421bd7be5cc6")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "U4")
 					(unit 1)
@@ -9942,6 +12272,28 @@
 				(justify bottom)
 			)
 		)
+		(property "Field17" ""
+			(at 224.79 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C160388"
+			(at 224.79 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "S1"
 			(uuid "54581543-073d-4f4b-9302-520da14674d2")
 		)
@@ -9955,7 +12307,7 @@
 			(uuid "24ec7661-0d30-4e26-a6cb-95076e0ec4b9")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "J1")
 					(unit 1)
@@ -10032,7 +12384,7 @@
 			(uuid "81ca1f98-aadb-4253-970f-7457cfa093f2")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR07")
 					(unit 1)
@@ -10109,7 +12461,7 @@
 			(uuid "66552444-c3bd-4afe-a65d-922d179acd5e")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR025")
 					(unit 1)
@@ -10186,7 +12538,7 @@
 			(uuid "cecb3ffa-e941-40fa-84f7-75be5795d8d7")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR021")
 					(unit 1)
@@ -10227,7 +12579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 41.148 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -10260,6 +12612,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C105871"
+			(at 39.37 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "87bee587-e774-4733-b87d-7a01eb84a736")
 		)
@@ -10267,7 +12630,7 @@
 			(uuid "591f6635-380f-4957-85df-8942a4b1a0c6")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "R8")
 					(unit 1)
@@ -10277,7 +12640,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 166.37 180)
+		(at 152.4 181.61 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10287,7 +12650,7 @@
 		(dnp no)
 		(uuid "a1ba08f3-397c-4727-b004-f5f9946b0da4")
 		(property "Reference" "R9"
-			(at 138.176 167.386 0)
+			(at 150.876 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10298,7 +12661,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 138.43 166.37 0)
+			(at 151.13 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10308,8 +12671,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 141.478 166.37 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 154.178 181.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10320,7 +12683,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 166.37 0)
+			(at 152.4 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10331,7 +12694,18 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 139.7 166.37 0)
+			(at 152.4 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C105871"
+			(at 152.4 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10348,9 +12722,163 @@
 			(uuid "d38f69b2-cc0b-44bd-a4b3-6cc2a4df3a83")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 91.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2a007a5-3235-4bcb-aaf6-2aff74e0b5f0")
+		(property "Reference" "#PWR039"
+			(at 36.83 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 88.392 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14858bd7-9936-4c71-8c20-0a7587b2b489")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 142.24 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a42e9d58-b12b-4c93-a111-8e9b4283d3a7")
+		(property "Reference" "#PWR047"
+			(at 107.95 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.696 138.176 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17d4eb06-9b33-4ed5-b22a-87b5c725855c")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -10503,7 +13031,7 @@
 			(uuid "c1827273-3e0c-4d00-af94-e6d7b5965827")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "USB1")
 					(unit 1)
@@ -10533,7 +13061,7 @@
 				)
 			)
 		)
-		(property "Value" "AMS1117-3.3"
+		(property "Value" "TLV1117-33IDCY"
 			(at 212.09 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10576,6 +13104,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" " C2877971"
+			(at 212.09 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "697dbb06-e96c-49e7-8cfd-50dfc16d9c07")
 		)
@@ -10586,7 +13125,7 @@
 			(uuid "433747ce-217b-4d51-b324-0e1c863edfac")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "U2")
 					(unit 1)
@@ -10660,6 +13199,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C16581"
+			(at 190.5 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "b620621b-5e79-4c4b-a9aa-b628ba895c7d")
 		)
@@ -10688,7 +13238,7 @@
 			(uuid "078f5edd-b7ba-4642-b946-b0da8570a9b4")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "U3")
 					(unit 1)
@@ -10765,7 +13315,7 @@
 			(uuid "7e8f14a4-ad09-4887-b735-f14377f25702")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR019")
 					(unit 1)
@@ -10775,7 +13325,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 137.16 270)
+		(at 223.52 140.97 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10785,7 +13335,7 @@
 		(dnp no)
 		(uuid "b608ab9e-337a-4ce6-a1af-b994d903adb0")
 		(property "Reference" "#PWR035"
-			(at 217.17 137.16 0)
+			(at 217.17 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10796,7 +13346,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.472 137.16 0)
+			(at 220.472 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10806,7 +13356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 137.16 0)
+			(at 223.52 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10817,7 +13367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 137.16 0)
+			(at 223.52 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10828,7 +13378,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 137.16 0)
+			(at 223.52 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10842,7 +13392,7 @@
 			(uuid "ff89e5a6-fed9-485f-9d27-8c99e27f1b63")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR035")
 					(unit 1)
@@ -10883,7 +13433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 235.2548 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -10916,6 +13466,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C131394"
+			(at 236.22 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "17fc744e-eeef-4c63-871c-1d59c120b838")
 		)
@@ -10923,7 +13484,7 @@
 			(uuid "ffbd58dd-3e9c-47c3-938a-b5d198c51ba0")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "C5")
 					(unit 1)
@@ -11000,7 +13561,7 @@
 			(uuid "dfe2bede-67f7-46c5-9389-37b3a166b5e6")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR030")
 					(unit 1)
@@ -11077,7 +13638,7 @@
 			(uuid "99c2b35b-a38d-41cd-9c33-c3b810242c61")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR011")
 					(unit 1)
@@ -11118,7 +13679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 73.66 91.7448 0)
 			(hide yes)
 			(show_name no)
@@ -11151,6 +13712,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C315248"
+			(at 69.85 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8f3a658f-87d5-4b60-993b-b9efe0a6151d")
 		)
@@ -11158,7 +13730,7 @@
 			(uuid "9701bbac-a29b-46a8-a990-5005ea6b0da3")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "C2")
 					(unit 1)
@@ -11235,7 +13807,7 @@
 			(uuid "9425da4f-e118-4362-96a8-0fa74d794351")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR018")
 					(unit 1)
@@ -11276,7 +13848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 169.418 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -11309,34 +13881,8 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "e9a80676-cb64-407b-9f4c-ccd478b144a8")
-		)
-		(pin "2"
-			(uuid "acb6e07d-529b-44ba-8945-de8741131a19")
-		)
-		(instances
-			(project "esp_temperature"
-				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 135.89 152.4 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d0acd607-7a7c-41bc-93af-88927f3ed411")
-		(property "Reference" "#PWR032"
-			(at 142.24 152.4 0)
+		(property "LCSC Part" "C106235"
+			(at 167.64 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11346,18 +13892,54 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 139.192 152.654 0)
+		(pin "1"
+			(uuid "e9a80676-cb64-407b-9f4c-ccd478b144a8")
+		)
+		(pin "2"
+			(uuid "acb6e07d-529b-44ba-8945-de8741131a19")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 97.79 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cbe532f6-60ff-4fc6-b831-d65cc648c6d8")
+		(property "Reference" "SW2"
+			(at 97.79 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 0.762 0.762)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 135.89 152.4 0)
+		(property "Value" "SW_SPDT_BOOT"
+			(at 98.044 90.932 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Library:PTS636SM25FSMTRLFS"
+			(at 97.79 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11368,7 +13950,101 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 152.4 0)
+			(at 97.79 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 97.79 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2800443"
+			(at 97.79 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5f5b639c-f549-4731-a826-4fc468177913")
+		)
+		(pin "1"
+			(uuid "5b2a37f6-0c92-4a4a-83ac-49205d5e2cef")
+		)
+		(pin "3"
+			(uuid "2df4bc21-073d-44f9-85c9-bc0dff8cba88")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 167.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d0acd607-7a7c-41bc-93af-88927f3ed411")
+		(property "Reference" "#PWR032"
+			(at 154.94 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.892 167.894 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11379,7 +14055,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 152.4 0)
+			(at 148.59 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11393,7 +14069,7 @@
 			(uuid "70bd8be5-91d8-40fe-9630-d5b79d71a038")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR032")
 					(unit 1)
@@ -11402,8 +14078,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 231.14 134.62 0)
+		(lib_id "power:GND")
+		(at 24.13 96.52 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11411,9 +14087,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d399e810-f3c3-4d62-a804-80a78efe5a7a")
-		(property "Reference" "#PWR034"
-			(at 231.14 138.43 0)
+		(uuid "d4845cfb-0a2f-43af-853f-f01da16b9133")
+		(property "Reference" "#PWR042"
+			(at 17.78 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11423,8 +14099,8 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 231.394 131.318 0)
+		(property "Value" "GND"
+			(at 21.082 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11434,7 +14110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 134.62 0)
+			(at 24.13 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11445,7 +14121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 134.62 0)
+			(at 24.13 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11455,8 +14131,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 231.14 134.62 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11467,12 +14143,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4ce4f1ac-3897-464f-b6f7-7e7ef7cb6390")
+			(uuid "8639a2de-3730-4173-8c39-630aef6f0a46")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
-					(reference "#PWR034")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11547,7 +14223,7 @@
 			(uuid "86f54381-6a7f-4f3e-8c6d-63d94a7cdb17")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR08")
 					(unit 1)
@@ -11624,9 +14300,101 @@
 			(uuid "cfafc508-cae3-4860-ba99-156a298e8a9b")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 48.26 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de6ed193-4f67-4cfb-a9b6-a21811ae1d70")
+		(property "Reference" "R11"
+			(at 47.244 102.616 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 48.26 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 48.26 105.918 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 48.26 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C60490"
+			(at 48.26 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "daece3e7-8a71-4f37-a6ba-e26857c36080")
+		)
+		(pin "2"
+			(uuid "ba14f50f-e58c-453e-a37f-8b18a7894ac7")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -11665,7 +14433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 173.228 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -11698,6 +14466,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C106235"
+			(at 171.45 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fc719f12-70e6-4eb8-b3f3-1aa99a17eb18")
 		)
@@ -11705,7 +14484,7 @@
 			(uuid "b06ea643-a495-4243-8230-3b0c2b721958")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "R5")
 					(unit 1)
@@ -11744,7 +14523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 186.69 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -11799,6 +14578,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C145305"
+			(at 186.69 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "672e3165-cbb5-45cd-a5c6-00adc42895da")
 		)
@@ -11806,7 +14596,7 @@
 			(uuid "3eda5414-45fa-4136-a4ea-2d4e3e7c5b4c")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "D3")
 					(unit 1)
@@ -11847,7 +14637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 39.878 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -11880,6 +14670,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C105871"
+			(at 38.1 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d0e2959f-bf20-4c08-9868-7b0cb869974c")
 		)
@@ -11887,9 +14688,101 @@
 			(uuid "7ee59ffc-e87b-4352-89f8-6e2c46dd42bf")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 88.9 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e2727dbc-5bbf-4313-9451-1b08d3b4bdce")
+		(property "Reference" "C7"
+			(at 87.122 92.456 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uf"
+			(at 90.678 92.202 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 92.71 91.7448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 88.9 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C131394"
+			(at 88.9 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58dd6a1b-3e37-4cb2-83ee-b87b252563e4")
+		)
+		(pin "2"
+			(uuid "6528b28f-240b-47a6-86f9-1df656a30786")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -11928,7 +14821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 60.96 89.2048 0)
 			(hide yes)
 			(show_name no)
@@ -11961,6 +14854,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C315248"
+			(at 57.15 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c1c95483-8353-4b70-9820-bdfdda0fef36")
 		)
@@ -11968,7 +14872,7 @@
 			(uuid "87c6b0b8-3c9d-4f51-bc79-4a149ad7a61f")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "C4")
 					(unit 1)
@@ -12046,9 +14950,272 @@
 			(uuid "b1cac2fe-f761-4d4b-9e4b-c37999d82cff")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 29.21 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8094c01-a885-48cf-842c-451908fa556d")
+		(property "Reference" "SW1"
+			(at 29.21 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT_RESET"
+			(at 29.21 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Library:PTS636SM25FSMTRLFS"
+			(at 29.21 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 29.21 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2800443"
+			(at 29.21 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "1bbc33c0-bb05-471d-8ccc-2fffb68c24e0")
+		)
+		(pin "1"
+			(uuid "bba9893c-2e36-4374-9c5d-886910f0d932")
+		)
+		(pin "2"
+			(uuid "26920450-20f4-4cee-8b11-1bb060a85ac8")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 92.71 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e9ad246d-7e0f-42c1-b13e-53fea2ebeff9")
+		(property "Reference" "#PWR022"
+			(at 78.74 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.026 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0bb1fce5-913b-46cd-8ebd-c70b4e661f3a")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 43.18 95.25 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eba61c45-ea37-40d0-959a-fe22124f9202")
+		(property "Reference" "C14"
+			(at 42.926 97.028 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uf"
+			(at 42.672 93.472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 42.2148 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 43.18 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C131394"
+			(at 43.18 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e6d66efd-0b01-49cf-83b5-b77c66d554ab")
+		)
+		(pin "2"
+			(uuid "4417fef8-902c-42c8-bd96-6559a9b4840e")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -12123,7 +15290,7 @@
 			(uuid "65f51b94-0d5d-431c-ae35-8d3528a756e9")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#FLG02")
 					(unit 1)
@@ -12200,7 +15367,7 @@
 			(uuid "ae698265-6d0d-4be8-8703-2204147a219a")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR026")
 					(unit 1)
@@ -12277,7 +15444,7 @@
 			(uuid "bf3bba5c-1716-4b4a-9165-6e76f5cc445d")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#FLG03")
 					(unit 1)
@@ -12316,7 +15483,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 229.87 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -12360,6 +15527,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C74338"
+			(at 229.87 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6e4ed7d4-8539-4cad-91e5-f6c7d2ec8506")
 		)
@@ -12367,9 +15545,101 @@
 			(uuid "d233ef80-a753-4330-a4d3-9ba24cda7258")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 107.95 146.05 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f378af37-d915-4d2a-b715-0c294ed2e4a9")
+		(property "Reference" "C17"
+			(at 107.696 147.828 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 107.442 144.272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 106.9848 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 107.95 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C60474"
+			(at 107.95 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16fa68fc-3082-4056-996c-a5f56f7b550c")
+		)
+		(pin "2"
+			(uuid "d79e9f08-ebbd-45bc-b552-0738e557c399")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -12444,9 +15714,270 @@
 			(uuid "8be9f8e4-acc5-4dd3-9865-2ea3ab951a49")
 		)
 		(instances
-			(project "esp_temperature"
+			(project "Clinical_Thermometer"
 				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 91.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f96d8707-8a89-479c-bb51-71bfe629c9f1")
+		(property "Reference" "#PWR040"
+			(at 43.18 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 88.392 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b09e3da-26c7-49e8-9283-6b0873dea317")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fce082a0-f4dc-4c8a-858d-8b7d137f2c58")
+		(property "Reference" "R10"
+			(at 87.884 84.836 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 88.9 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 88.9 88.138 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C60490"
+			(at 88.9 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99fef8ba-b50e-41f5-8a74-4fdf8e725551")
+		)
+		(pin "2"
+			(uuid "d4e86d90-e8b6-4850-89de-864bf2317b49")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 114.3 146.05 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe72a313-4aef-4936-a605-e2b31979c5a2")
+		(property "Reference" "C18"
+			(at 114.046 147.828 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 113.792 144.272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 113.3348 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C60474"
+			(at 114.3 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f2bf281-5f89-4b4c-b87b-376ef61471d7")
+		)
+		(pin "2"
+			(uuid "7e188791-5828-4ac2-86f9-5f65236c3302")
+		)
+		(instances
+			(project "Clinical_Thermometer"
+				(path "/ce469ebf-2011-4a4a-ad04-71bd22c7acfe"
+					(reference "C18")
 					(unit 1)
 				)
 			)
